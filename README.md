@@ -4,7 +4,7 @@
 
 ### Para fazer clone.
 
-`git clone https://github.com/walison-moreira-ufg/lab-pw-2017-1`
+`git clone https://github.com/RogerioAmorim/aula-PW06-06-2017`
 
 ### Para rodar com o Tomcat.
 
