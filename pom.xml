@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>pessoal</groupId>
-  <artifactId>aula-PW06-06-2017</artifactId>
+  <artifactId>exercicio</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <!-- "war" indica que é um projeto web. -->
   <packaging>war</packaging>
@@ -33,6 +33,15 @@
         <version>2.2</version>
         <configuration>
           <port>9090</port>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
     </plugins>

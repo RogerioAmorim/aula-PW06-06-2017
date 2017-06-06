@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(value = "/mvc/calculo-imc")
+@WebServlet(value = "/calculo-imc")
 public class IMC_controller extends HttpServlet {
 	
 	@Override
@@ -30,7 +30,7 @@ public class IMC_controller extends HttpServlet {
 		//Passa a váriável para a página JSP.
 		request.setAttribute("resultado", resultado);
 		//Chama página JSP.
-		request.getRequestDispatcher("calculo-imc-view.jsp").
+		request.getRequestDispatcher("index.jsp").
 			forward(request, response);
 
 	}

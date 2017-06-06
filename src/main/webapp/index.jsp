@@ -20,7 +20,7 @@
 <body>
   <h1>Calculo de IMC</h1>
     <div class="text-center">
-      <form class="navbar-form navbar-center"> 
+      <form class="navbar-form navbar-center" action="calculo-imc"> 
         <div class="row">
           <span class="label label-default" style=" font-size: 19px">Altura</span>
             <div class="input-group">
@@ -51,9 +51,10 @@
         </div>
       </div>
     <br>
-    <button = class="btn btn-primary">CALCULAR</button>
+    <button type="submit" class="btn btn-primary">CALCULAR</button>
+   <br>
+   <div class="alert alert-success" role="alert" style="margin-top:45px">${resultado}</div>
    </form>
-         <div class="alert alert-success" role="alert" style="margin-top:45px">${resultado}</div>
         </div>
   </body>
 </html>
